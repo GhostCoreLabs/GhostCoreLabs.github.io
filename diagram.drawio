@@ -1,0 +1,654 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0" version="26.0.13">
+  <diagram id="JLTIA7tI1ulwEuO87yZv" name="Page-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#999999" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;shadow=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="5581" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-2" value="CLI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;shadow=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="229" y="20" width="150" height="5581" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-3" value="Agent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;shadow=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="20" width="150" height="5581" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-4" value="DLLLocker" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;shadow=1;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="639" y="20" width="150" height="5581" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-5" value="BypassSystem" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;shadow=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="839" y="20" width="150" height="5581" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-6" value="Security" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;shadow=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1039" y="20" width="150" height="5581" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-7" value="Network" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;shadow=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1239" y="20" width="150" height="5581" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-8" value="RateLimiter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;shadow=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1439" y="20" width="150" height="5581" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-9" value="EncryptionHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;shadow=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1639" y="20" width="151" height="5581" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-10" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;height=20;width=30;shadow=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="84" y="590" width="1316" height="896" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-11" value="[Rate Limited]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;" vertex="1" parent="IEeNe6liv2P-lKGHAZeE-10">
+          <mxGeometry x="30" width="1286" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-12" value="[Allowed]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;labelBackgroundColor=none;" vertex="1" parent="IEeNe6liv2P-lKGHAZeE-10">
+          <mxGeometry y="103" width="1316" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-13" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;height=20;width=30;shadow=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="293" y="2043" width="632" height="464" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-14" value="[Config Valid]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;" vertex="1" parent="IEeNe6liv2P-lKGHAZeE-13">
+          <mxGeometry x="30" width="602" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-15" value="[Config Invalid]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;labelBackgroundColor=none;" vertex="1" parent="IEeNe6liv2P-lKGHAZeE-13">
+          <mxGeometry y="289" width="632" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-16" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;height=20;width=30;shadow=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="3543" width="170" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-17" value="[Bypass1]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;" vertex="1" parent="IEeNe6liv2P-lKGHAZeE-16">
+          <mxGeometry x="30" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-18" value="[Bypass2]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;labelBackgroundColor=none;" vertex="1" parent="IEeNe6liv2P-lKGHAZeE-16">
+          <mxGeometry y="379" width="170" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-19" value="[Bypass3]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;labelBackgroundColor=none;" vertex="1" parent="IEeNe6liv2P-lKGHAZeE-16">
+          <mxGeometry y="753" width="170" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-20" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;height=20;width=40;shadow=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="84" y="5200" width="1241" height="306" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-21" value="[System Active]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;labelBackgroundColor=none;" vertex="1" parent="IEeNe6liv2P-lKGHAZeE-20">
+          <mxGeometry x="40" width="1201" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-22" value="Initialize Components" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="556" y="176" />
+              <mxPoint x="556" y="206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-23" value="Establish Connection" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="918" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-24" value="Connection Status" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-7" target="IEeNe6liv2P-lKGHAZeE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="921" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-25" value="Load Protection Keys" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="818" y="362" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-26" value="Security Status" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-6" target="IEeNe6liv2P-lKGHAZeE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="821" y="414" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-27" value="Login Request" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-1" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="208" y="466" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-28" value="Check IP Attempts" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-2" target="IEeNe6liv2P-lKGHAZeE-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="918" y="518" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-29" value="Rate Status" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-8" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="921" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-30" value="Timeout Message" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-2" target="IEeNe6liv2P-lKGHAZeE-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="211" y="668" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-31" value="Generate Hardware ID" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-2" target="IEeNe6liv2P-lKGHAZeE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="718" y="766" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-32" value="CPU Info Check" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-6" target="IEeNe6liv2P-lKGHAZeE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1165" y="818" />
+              <mxPoint x="1165" y="848" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-33" value="Volume Serial" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-6" target="IEeNe6liv2P-lKGHAZeE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1165" y="900" />
+              <mxPoint x="1165" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-34" value="BIOS UUID" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-6" target="IEeNe6liv2P-lKGHAZeE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1165" y="982" />
+              <mxPoint x="1165" y="1012" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-35" value="Motherboard Serial" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-6" target="IEeNe6liv2P-lKGHAZeE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1165" y="1064" />
+              <mxPoint x="1165" y="1094" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-36" value="HWID Generated" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-6" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="721" y="1146" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-37" value="Validate License + HWID" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-2" target="IEeNe6liv2P-lKGHAZeE-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="818" y="1198" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-38" value="Verify Database" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-7" target="IEeNe6liv2P-lKGHAZeE-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1365" y="1250" />
+              <mxPoint x="1365" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-39" value="License Details" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-7" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="821" y="1332" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-40" value="Save Encrypted Key" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-2" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="1384" />
+              <mxPoint x="355" y="1414" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-41" value="Auth Complete" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-2" target="IEeNe6liv2P-lKGHAZeE-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="211" y="1466" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-42" value="Check Key File" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-2" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="1577" />
+              <mxPoint x="355" y="1607" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-43" value="Decrypt Stored Key" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-2" target="IEeNe6liv2P-lKGHAZeE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="718" y="1659" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-44" value="Key Status" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-6" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="721" y="1711" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-45" value="Silent Validation" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-2" target="IEeNe6liv2P-lKGHAZeE-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="818" y="1763" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-46" value="Session Status" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-7" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="821" y="1815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-47" value="Configure System" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-1" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="208" y="1867" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-48" value="Load Config JSON" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-2" target="IEeNe6liv2P-lKGHAZeE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413" y="1919" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-49" value="Verify File Integrity" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="818" y="1971" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-50" value="Integrity Status" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-6" target="IEeNe6liv2P-lKGHAZeE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="821" y="2023" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-51" value="Parse Settings" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="556" y="2121" />
+              <mxPoint x="556" y="2151" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-52" value="Update Locker Path" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="618" y="2203" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-53" value="Update Methods" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="718" y="2255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-54" value="Settings Applied" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="416" y="2307" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-55" value="Load Defaults" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="556" y="2405" />
+              <mxPoint x="556" y="2435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-56" value="Reset Notice" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="416" y="2487" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-57" value="Secure DLL Request" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-1" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="208" y="2549" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-58" value="Initialize Locker" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-2" target="IEeNe6liv2P-lKGHAZeE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="518" y="2601" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-59" value="Generate Keys" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-4" target="IEeNe6liv2P-lKGHAZeE-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1223" y="2653" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-60" value="Create Secure Container" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-4" target="IEeNe6liv2P-lKGHAZeE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="2705" />
+              <mxPoint x="765" y="2735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-61" value="Encrypt DLL" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-4" target="IEeNe6liv2P-lKGHAZeE-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1223" y="2787" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-62" value="Protected Content" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-9" target="IEeNe6liv2P-lKGHAZeE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1226" y="2839" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-63" value="Store Secure DLL" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-4" target="IEeNe6liv2P-lKGHAZeE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="2891" />
+              <mxPoint x="765" y="2921" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-64" value="Security Complete" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-4" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="521" y="2973" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-65" value="Injection Request" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-1" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="208" y="3025" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-66" value="Process Command" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-2" target="IEeNe6liv2P-lKGHAZeE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413" y="3077" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-67" value="Request DLL Access" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="618" y="3129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-68" value="Decrypt DLL" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-4" target="IEeNe6liv2P-lKGHAZeE-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1223" y="3181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-69" value="Decrypted Content" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-9" target="IEeNe6liv2P-lKGHAZeE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1226" y="3233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-70" value="DLL Ready" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-4" target="IEeNe6liv2P-lKGHAZeE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="621" y="3285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-71" value="Start Injection" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="718" y="3337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-72" value="Get Process Handle" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="3389" />
+              <mxPoint x="965" y="3419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-73" value="Verify Process" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1023" y="3471" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-74" value="Process Valid" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-6" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1026" y="3523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-75" value="REDACTED" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="3621" />
+              <mxPoint x="965" y="3651" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-76" value="REDACTED" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="3703" />
+              <mxPoint x="965" y="3733" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-77" value="REDACTED" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="3785" />
+              <mxPoint x="965" y="3815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-78" value="REDACTED" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="3867" />
+              <mxPoint x="965" y="3897" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-79" value="REDACTED" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="3995" />
+              <mxPoint x="965" y="4025" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-80" value="REDACTED" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="4077" />
+              <mxPoint x="965" y="4107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-81" value="REDACTED" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="4159" />
+              <mxPoint x="965" y="4189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-82" value="REDACTED" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="4241" />
+              <mxPoint x="965" y="4271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-83" value="REDACTED" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="4369" />
+              <mxPoint x="965" y="4399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-84" value="REDACTED" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="4451" />
+              <mxPoint x="965" y="4481" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-85" value="REDACTED" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="4533" />
+              <mxPoint x="965" y="4563" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-86" value="Injection Status" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="721" y="4655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-87" value="Operation Result" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="416" y="4707" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-88" value="Status Display" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-2" target="IEeNe6liv2P-lKGHAZeE-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="211" y="4759" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-89" value="Clear Memory" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="4860" />
+              <mxPoint x="965" y="4890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-90" value="Remove Traces" style="curved=1;endArrow=block;rounded=0;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="4942" />
+              <mxPoint x="965" y="4972" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-91" value="Secure Wipe" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-5" target="IEeNe6liv2P-lKGHAZeE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1023" y="5024" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-92" value="Reset State" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-6" target="IEeNe6liv2P-lKGHAZeE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="926" y="5076" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-93" value="Clear Keys" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-4" target="IEeNe6liv2P-lKGHAZeE-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1223" y="5128" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-94" value="Cleanup Done" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-4" target="IEeNe6liv2P-lKGHAZeE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="621" y="5180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-95" value="Connection Check" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-7" target="IEeNe6liv2P-lKGHAZeE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="921" y="5278" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-96" value="Integrity Check" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="818" y="5330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-97" value="Security Status" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-6" target="IEeNe6liv2P-lKGHAZeE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="821" y="5382" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-98" value="Update Display" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-3" target="IEeNe6liv2P-lKGHAZeE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="416" y="5434" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-99" value="Realtime Status" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;shadow=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="IEeNe6liv2P-lKGHAZeE-2" target="IEeNe6liv2P-lKGHAZeE-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="211" y="5486" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-100" value="System Initialization" style="shadow=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="95" width="859" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-101" value="AutoLogin Check" style="shadow=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="1496" width="860" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IEeNe6liv2P-lKGHAZeE-102" value="Secure Cleanup" style="shadow=1;labelBackgroundColor=none;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="889" y="4779" width="250" height="49" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

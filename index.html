@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GhostCore Diagram</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .header {
+            padding: 20px;
+            background: #1a1a1a;
+            color: white;
+            text-align: center;
+        }
+        .controls {
+            padding: 15px;
+            background: #2d2d2d;
+            border-bottom: 1px solid #3d3d3d;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .diagram-container {
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            background: #1e1e1e;
+        }
+        button {
+            padding: 8px 16px;
+            background: #4a4a4a;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        button:hover {
+            background: #5a5a5a;
+        }
+        select {
+            padding: 8px;
+            background: #4a4a4a;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+        }
+        .section-label {
+            color: #888;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>GhostCore Diagram</h1>
+    </div>
+    <div class="controls">
+        <button onclick="zoomIn()">
+            <i class="fas fa-search-plus"></i> Zoom In
+        </button>
+        <button onclick="zoomOut()">
+            <i class="fas fa-search-minus"></i> Zoom Out
+        </button>
+        <button onclick="resetView()">
+            <i class="fas fa-compress-arrows-alt"></i> Reset View
+        </button>
+        <span class="section-label">Theme:</span>
+        <select id="themeSelector" onchange="changeTheme()">
+            <option value="dark">Dark Theme</option>
+            <option value="default">Light Theme</option>
+            <option value="sketch">Sketch Theme</option>
+        </select>
+    </div>
+    <div class="diagram-container">
+        <iframe 
+            frameborder="0" 
+            style="width:100%; height:100%;" 
+            src="https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=system_diagram&theme=dark#Uhttps://raw.githubusercontent.com/GhostCoreLabs/GhostCoreLabs.github.io/refs/heads/main/diagram.drawio">
+        </iframe>
+    </div>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+    <script>
+        let viewer;
+        function zoomIn() {
+            viewer.executeCommand('zoomIn');
+        }
+        function zoomOut() {
+            viewer.executeCommand('zoomOut');
+        }
+        function resetView() {
+            viewer.executeCommand('resetView');
+        }
+        function changeTheme() {
+            const theme = document.getElementById('themeSelector').value;
+            viewer.executeCommand('setTheme', [theme]);
+        }
+        document.querySelector('iframe').onload = function() {
+            viewer = document.querySelector('iframe').contentWindow;
+        };
+    </script>
+</body>
+</html> 
